@@ -1,1 +1,1 @@
-this is only test
+这是一个简单的用php实现设计模式的例子
