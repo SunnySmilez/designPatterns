@@ -6,7 +6,6 @@ class performQuack extends duck {
 	}
 
 	public function perform() {
-		echo 111;
 		$this->quackBehavior->quack();
 		$this->flyBehavior->fly();
 	}
@@ -15,6 +14,3 @@ class performQuack extends duck {
 
 	}
 }
-
-(new performQuack())->perform();
-exit;
