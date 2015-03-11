@@ -1,4 +1,5 @@
 <?php
+namespace strategyPattern;
 class performQuack extends duck {
 	public function __construct() {
 		$this->quackBehavior = new quack();

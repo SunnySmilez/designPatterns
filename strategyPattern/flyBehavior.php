@@ -1,5 +1,5 @@
 <?php
-//namespace strategyPattern;
+namespace strategyPattern;
 interface  flyBehavior {
 	public function fly();
 }

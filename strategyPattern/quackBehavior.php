@@ -1,5 +1,5 @@
 <?php
-//namespace strategyPattern;
+namespace strategyPattern;
 interface quackBehavior {
 	public function quack();
 }

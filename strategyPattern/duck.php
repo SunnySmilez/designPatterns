@@ -1,5 +1,5 @@
 <?php
-//namespace strategyPattern;
+namespace strategyPattern;
 abstract class duck {
 	public $flyBehavior;
 	public $quackBehavior;
